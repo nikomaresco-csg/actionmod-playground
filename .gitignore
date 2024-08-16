@@ -1,0 +1,8 @@
+# editor related
+.editorconfig
+
+# nodejs related
+node_modules/
+
+# build artifacts
+*.mod
