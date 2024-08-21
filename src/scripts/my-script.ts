@@ -33,7 +33,7 @@ function generateSquareWKT(lowerLeftX: number, lowerLeftY: number, sideLength: n
 function createTestTable({
     document,
     application,
-}: MyScriptParameters) {
+}: CreateTestTableParameters) {
 
     // generate a csv with an id column and a random square WKT column
     const csv = "id;x;y;geometry\nInteger;Real;Real;Binary\n" +
