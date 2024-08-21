@@ -4,20 +4,16 @@
     "type": "action",
     "name": "Actionmod Playground",
     "id": "actionmod-playground",
-    "description": "Description of what the mod does.",
+    "description": "A project for playing with action mod scripts that don't need their own projects yet.",
     "capabilities": [],
     "icon": "icon.svg",
     "scripts": [
         {
-            "id": "script-id",
-            "name": "My script",
+            "id": "wkb-test-1",
+            "name": "Create test table with WKB",
             "file": "build/my-script.js",
-            "entryPoint": "myScript",
+            "entryPoint": "createTestTable",
             "parameters": [
-                {
-                    "name": "message",
-                    "type": "String"
-                }
             ]
         }
     ]
